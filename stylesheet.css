@@ -1,11 +1,13 @@
 
 /* The navigation bar */
 .navbar {
+  display: block;
   overflow: hidden;
   background-color: #333;
   position: fixed; 
   top: 0; 
   width: 100%; 
+  margin-bottom: 20px;
 }
 
 /* Links inside the navbar */
@@ -23,42 +25,49 @@
   color: black;
 }
 
-/* Image tag */
-
-#img {
-  height: 12%;
-  width: 12%;
-  border-radius: 50%;
-  float: left;
-  margin-top: 100px;
-;
+/* This is the header of the entire top section */
+#top {
+  display: flex;
+  width: 110%;
+  background-color: rgb(122, 122, 122);
+  color: white;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  height: 150px;
 }
 
-/* The div box */
-
-.header {
-  overflow: hidden;
-  background-color: #c9c8c8; 
-  top: 0; 
-  width: 100%; 
-  text-align: center;
-  color: white;
-  padding: 5px;
+/* This is the head content which include image & paragraph */
+.header-content {
+  margin-left: 30px;
+  padding: 40px;
   font-size: large;
 }
 
-/* This is for username 
+/* This is the image */
+#header-image {
+  margin-top: 35px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
 
+.back-to-top {
+  position: fixed;
+  width: 100%;
+  margin-left: 95%;
+  bottom: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
 
 /* This is the content of the page */
-
 .info {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
-/* This is for the Education, Experience, Skills heading */
 
+/* This is for the Education, Experience, Skills heading */
 .heading {
   font-size: 25px;
   font-weight: bold;
@@ -110,3 +119,5 @@
   text-indent: 15px;
   font-size: large;
 }
+
+
