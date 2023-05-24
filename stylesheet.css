@@ -112,12 +112,41 @@
   overflow: hidden;
   background-color: #333; 
   bottom: 0; 
-  width: 100%; 
+  width: 110%; 
   text-align: center;
   color: white;
-  padding: 5px;
+  padding: 0;
   text-indent: 15px;
   font-size: large;
+  margin-left: 0;
+  margin-right: 0;
 }
 
+#mail {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
+#_subject {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#text {
+  width: 27%;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+.submit {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
