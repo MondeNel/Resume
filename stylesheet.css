@@ -4,10 +4,10 @@
   display: block;
   overflow: hidden;
   background-color: #333;
-  position: fixed; 
+  position: sticky; 
   top: 0; 
-  width: 100%; 
-  margin-bottom: 20px;
+  width: auto; 
+
 }
 
 /* Links inside the navbar */
@@ -21,15 +21,15 @@
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
+  background: white;
   color: black;
 }
 
 /* This is the header of the entire top section */
 #top {
   display: flex;
-  width: 110%;
-  background-color: rgb(122, 122, 122);
+  width: auto;
+  background-color: rgb(185, 182, 182);
   color: white;
   padding: 2rem;
   padding-bottom: 4rem;
@@ -39,18 +39,19 @@
 /* This is the head content which include image & paragraph */
 .header-content {
   margin-left: 30px;
-  padding: 40px;
+  padding: 5px;
   font-size: large;
 }
 
 /* This is the image */
 #header-image {
-  margin-top: 35px;
+  margin-top: 30px;
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
 
+/* Button */
 .back-to-top {
   position: fixed;
   width: 100%;
@@ -60,14 +61,19 @@
   margin-bottom: 80px;
 }
 
+
+
+
 /* This is the content of the page */
+
+
 .info {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
 
-/* This is for the Education, Experience, Skills heading */
+
 .heading {
   font-size: 25px;
   font-weight: bold;
@@ -77,27 +83,18 @@
   text-align: left;
 }
 
-/* This is the type for qualification */
+
 #type {
   font-size: 20px;
   font-weight: bold;
   margin-left: 15px;
 }
 
+
 .paragraph {
   margin-left: 15px;
   font-size: medium;
 }
-
-
-
-.border {
-  border-style: solid;
-  display: block;
-  border-width: 10px;
-  border-color: rgb(1, 11, 97);
-}
-
 
 .text {
   font-size: large;
@@ -108,11 +105,21 @@
 }
 
 
+
+
+
+
+
+
+/* The footer/bottom section */
+
+
+
 .footer {
   overflow: hidden;
   background-color: #333; 
   bottom: 0; 
-  width: 110%; 
+  width: auto; 
   text-align: center;
   color: white;
   padding: 0;
@@ -121,6 +128,7 @@
   margin-left: 0;
   margin-right: 0;
 }
+
 
 #mail {
   font-size: 18px;
