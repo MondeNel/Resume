@@ -169,7 +169,7 @@ header {
 
 
 #mail {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -182,24 +182,15 @@ header {
   border-radius: 5px;
 }
 
-#text {
-  width: 27%;
-  text-align: left;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 0;
-  border-radius: 5px;
-}
 
 .submit {
-  font-size: x-large;
+  font-size: large;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 #link {
-  text-align: center;
-  color: white;
+  float: right;
   margin-right: 20px;
   margin-bottom: 20px;
 }
