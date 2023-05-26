@@ -42,6 +42,7 @@ body {
 
 /* This is the head content which include image & paragraph */
 .header-content {
+  position: relative;
   margin-left: 50px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -50,15 +51,24 @@ body {
 
 /* This is the image */
 #header-image {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  position: relative;
+  top: 20px;
   margin-left: 10px;
-  border-radius: 30%;
-  width: 200px;
-  height: 200px;
+  border-radius: 20%;
+  width: 250px;
+  height:250px;
 }
 
-/* Button */
+/* Button style */
+.btn {
+  background-color: rgb(78, 198, 94);
+  border-radius: 50%;
+  border: solid 1px rgb(92, 206, 97);
+  width: 40px;
+  height: 40px;
+}
+
+/* Button positioning */
 .back-to-top {
   position: fixed;
   width: 100%;
@@ -169,7 +179,8 @@ body {
 }
 
 #link {
-  float: right;
+  text-align: center;
   margin-right: 20px;
   margin-bottom: 20px;
+  color: white;
 }
