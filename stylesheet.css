@@ -8,7 +8,7 @@ body {
   background-size: cover;
 }
 
-/* ===== This is the nav bar ===== */
+/* ============================ This is the nav bar ============================= */
 
 /* The navigation bar */
 .navbar { 
@@ -44,7 +44,7 @@ body {
 
 
 
-/* ====== This is the top section of the web page ===== */
+/* ======================== This is the top section of the web page ======================= */
 
 header {
   position: relative;
@@ -72,6 +72,7 @@ header {
 
 /* This is the image */
 #header-image {
+  background-position: ;
   position: relative;
   top: 50px;
   margin-left: 10px;
@@ -108,7 +109,7 @@ header {
 
 
 
-/* ===== This is the content of the page ===== */
+/* ======================== This is the content of the page ========================= */
 
 
 .info {
@@ -155,7 +156,7 @@ header {
 
 
 
-/* ===== The footer/bottom section ===== */
+/* =========================== The footer/bottom section =========================== */
 
 
 
@@ -201,4 +202,91 @@ header {
   float: right;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+
+/* ====================== Mobile device ========================= */
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    height: 20px;
+  }
+  .navbar a {
+    padding: 2px;
+    float: right;
+    font-size: 10px;
+  }
+
+  #hero {
+    
+  }
+  
+  #header-image {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+  }
+
+  .header-content {
+    margin-top: 5px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+  .heading {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .btn {
+    display: none;
+  }
+
+  #type {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  
+  .paragraph {
+    margin-left: 15px;
+    font-size: 10px;
+  }
+  .text {
+    font-size: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: lighter;
+  }
+  .footer {
+    text-indent: 5px;
+    font-size: 10px;
+    
+  }
+
+  #mail {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #_subject {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
 }
