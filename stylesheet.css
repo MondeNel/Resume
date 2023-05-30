@@ -72,7 +72,6 @@ header {
 
 /* This is the image */
 #header-image {
-  background-position: ;
   position: relative;
   top: 50px;
   margin-left: 10px;
@@ -208,7 +207,7 @@ header {
 
 /* ====================== Mobile device ========================= */
 
-@media only screen and (min-width: 319px) and (max-width: 425px) {
+@media only screen and (min-width: 50px) and (max-width: 425px) {
   .navbar {
     height: 20px;
   }
@@ -223,8 +222,8 @@ header {
   }
   
   #header-image {
-    width: 105px;
-    height: 105px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
   }
 
@@ -311,8 +310,8 @@ header {
   }
   
   #header-image {
-    width: 170px;
-    height: 160px;
+    max-width: 100%;
+    height: auto;
     border-radius: 30%;
   }
 
@@ -385,8 +384,8 @@ header {
   }
   
   #header-image {
-    width: 280px;
-    height: 240px;
+    max-width: 100%;
+    height: auto;
     border-radius: 20%;
   }
 
